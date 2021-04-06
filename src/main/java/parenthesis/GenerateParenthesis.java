@@ -5,7 +5,7 @@ import java.util.List;
 
 public class GenerateParenthesis {
 
-    public static List<String> generateParenthesis(int n){
+public static List<String> generateParenthesis(int n){
         List<String> lst = new ArrayList<>();
         if(n == 0) return lst;
         generateHelper(lst,n,"",0,0);
